@@ -61,8 +61,6 @@ Use https://lexica.art/ for examples of promts that you can use.
 
 Installed some extensions so you can play around.
 
-- **Image SmartCrop** https://github.com/d8ahazard/sd_smartprocess
-- **Remove background** https://github.com/KutsuyaYuki/ABG_extension
 - **OutPaint** https://github.com/zero01101/openOutpaint-webUI-extension
 - **Deforum** https://github.com/deforum-art/deforum-for-automatic1111-webui
 - **Image Browser** https://github.com/yfszzx/stable-diffusion-webui-images-browser
