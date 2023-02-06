@@ -59,6 +59,8 @@ Use https://lexica.art/ for examples of promts that you can use.
 
 ## Extensions
 
+Installed some extensions so you can play around.
+
 - **Image SmartCrop** https://github.com/d8ahazard/sd_smartprocess
 - **Remove background** https://github.com/KutsuyaYuki/ABG_extension
 - **OutPaint** https://github.com/zero01101/openOutpaint-webUI-extension
