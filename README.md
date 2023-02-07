@@ -129,6 +129,8 @@ terraform destroy
 
     Solution: make sure you are in the home region when running the Terraform script. If it is a trial, you will be on the home region. Move to your home region and try again.
 
-## References
-- [The automatic1111 project](https://github.com/AUTOMATIC1111/)
-- Author: Carlos Giraldo, Oracle
+## Acknowledgements
+
+* **Author** - [Carlos Giraldo](https://www.linkedin.com/in/carlos-giraldo-a79b073b/), Oracle
+* **Last Updated Date** - February 7th, 2023
+- **Code Base** - [The automatic1111 project](https://github.com/AUTOMATIC1111/)
