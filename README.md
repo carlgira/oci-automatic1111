@@ -53,7 +53,7 @@ terraform apply
 **After applying, the service will be ready in about 25 minutes.** (it will install OS dependencies, NVIDIA drivers, and install _`automatic1111`_ with some extensions).
 
 ## Post-Configuration
-To test the app, you need to create an SSH Tunnel to port 7860to to use _`automatic1111`. The output of the terraform script will give the SSH command you need to execute, so you only need to copy and paste the following:
+To test the app, you need to create an SSH Tunnel to port **7860** to to use _`automatic1111`. The output of the terraform script will give the SSH command you need to execute, so you only need to copy and paste the following:
 
 ```bash
 ssh -i server.key -L 7860:localhost:7860 opc@<instance-public-ip>
