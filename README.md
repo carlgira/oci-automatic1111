@@ -14,16 +14,9 @@ Terraform script to start **automatic1111** in OCI using a nvidia GPU.
     ```
 
 3. Set three variables in your path. 
-- Copy the output of the following command as the tenancy OCID:
-    ```bash
-    <copy>echo $OCI_TENANCY</copy>
-    ```
-- The comparment OCID where the instance will be created. If you're using the root compartment, it'll be the same as the tenancy OCID.
-- The "Region Identifier" of region of your tenancy:
-    ```bash
-    <copy>echo $OCI_REGION</copy>
-    ``` 
-
+- The tenancy OCID, 
+- The comparment OCID where the instance will be created.
+- The "Region Identifier" of region of your tenancy.
 > **Note**: [More info on the list of available regions here.](https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm)
 
 ```bash
@@ -32,11 +25,11 @@ export TF_VAR_compartment_ocid='<comparment-ocid>'
 export TF_VAR_region='<oci-region>'
 ```
 
-0. If you're using a Linux OS, you may need to execute the following command to obtain execution permissions on the shell script:
+1. If you're using a Linux OS, you may need to execute the following command to obtain execution permissions on the shell script:
     ```bash
     chmod a+x generate-keys.sh
     ```
-1. Execute the script generate-keys.sh to generate private key to access the instance. You may 
+2. Execute the script generate-keys.sh to generate private key to access the instance. You may 
     ```bash
     sh generate-keys.sh
     ```
