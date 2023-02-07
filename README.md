@@ -133,4 +133,4 @@ terraform destroy
 
 * **Author** - [Carlos Giraldo](https://www.linkedin.com/in/carlos-giraldo-a79b073b/), Oracle
 * **Last Updated Date** - February 7th, 2023
-- **Code Base** - [The automatic1111 project](https://github.com/AUTOMATIC1111/)
+* **Code Base** - [The automatic1111 project](https://github.com/AUTOMATIC1111/)
